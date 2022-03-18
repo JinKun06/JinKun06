@@ -1,16 +1,2 @@
-thong_tin = [ "May An Lanh", "khoa", "Tung", "lan"]
-print(thong_tin[2])
-print(thong_tin[0:4])
-#Thêm một giá trị vào danh sách 
-thong_tin . insert(2, "ha")
-print(thong_tin)
-
-#thêm giá trị vào cuối danh sách 
-thong_tin.extend (['châu', 'thắng'])
-print(thong_tin)
-#thay thế 
-thong_tin [3] = 'Kỳ'
-print(thong_tin)
-# xóa giá trị khỏi danh sách 
-thong_tin.remove('lan')
-print(thong_tin)
+orbs:
+  python: circleci/python@2.0.3
